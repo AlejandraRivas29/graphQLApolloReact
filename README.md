@@ -10,3 +10,9 @@ npm start
 And then visit:
 http://localhost:4000/graphql
 
+Go to graphQLApolloReact\app and run 
+npm i 
+npm start
+And then visit:
+http://localhost:1337/
+
