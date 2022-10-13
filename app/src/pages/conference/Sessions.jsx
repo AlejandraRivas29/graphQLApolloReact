@@ -73,7 +73,7 @@ function AllSessionList() {
 
 function SessionList ({ day }) {
 
-  if (day == "") day = "Wednesday"
+  if (day === "") day = "Wednesday"
 
 	// execute query and store response json
   const { loading, error, data } = useQuery(SESSIONS, {
@@ -178,7 +178,7 @@ export function Sessions() {
             </button >
           </div>
           <SessionList day={day} />
-          { day =='All' && <AllSessionList /> }
+          { day ==='All' && <AllSessionList /> }
         </div>
       </section>
     </>
